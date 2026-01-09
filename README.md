@@ -1,50 +1,50 @@
-# 🚢 Titanic Survival Analysis
-
-> Um estudo clássico de Ciência de Dados sobre os fatores que influenciaram as taxas de sobrevivência no naufrágio do Titanic.
-
-## 🎯 Objetivo do Projeto
-O objetivo desta análise é identificar padrões nos dados dos passageiros para entender quem tinha mais chances de sobreviver ao desastre, utilizando técnicas de análise exploratória e estatística.
-
-* Investigar o impacto da classe social (Socio-economic status) na sobrevivência.
-* Analisar a influência de gênero e idade nas chances de resgate.
-* Identificar correlações entre o local de embarque e a estrutura familiar dos passageiros.
+# 🚢 Titanic Survival Analysis: Um Estudo de Variáveis Sociodemográficas
+**Autor:** Dra. Andressa Corrêa
+**Expertise:** Doutora em Ciências (Físicas e Biomoleculares) | Analista de Dados
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🎯 Objetivo do Projeto
+Este projeto realiza uma análise exploratória e estatística sobre o naufrágio do Titanic, com o intuito de decodificar os fatores determinantes para a sobrevivência dos passageiros. A investigação foca em como a estrutura social, o gênero e a idade atuaram como variáveis preditoras em um cenário de crise.
 
-```text
-titanic-survival-analysis/
-├── data/
-│   └── train.csv                # Dataset original com os dados dos passageiros
-├── notebooks/
-│   └── titanic_survival_eda.ipynb # Notebook com a análise completa
-└── README.md                    # Documentação e conclusões
+### 🔬 Abordagem Metodológica:
+- **Análise de Sobrevivência Diferencial:** Investigação do impacto da classe socioeconômica e demográfica.
+- **Tratamento de Dados Ausentes:** Aplicação de técnicas de imputação estatística para lidar com a incompletude de variáveis críticas como idade.
+- **Engenharia de Variáveis:** Criação de novos indicadores (ex: Tamanho de Família) para extrair padrões de comportamento de grupo.
 
-🛠️ Tecnologias Utilizadas
-Python 3.10
+---
 
-Pandas (Limpeza de dados e tratamento de valores nulos)
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.10**
+- **Pandas:** Limpeza técnica de dados e normalização de variáveis categóricas.
+- **Seaborn & Matplotlib:** Visualização avançada de distribuições e correlações multivariadas.
+- **Numpy:** Suporte computacional para processamento de matrizes.
 
-Seaborn & Matplotlib (Visualização de distribuições e correlações)
+---
 
-Numpy (Processamento numérico)
+## ✅ Conclusões e Insights Estratégicos
+A análise revelou padrões que refletem as normas sociais e protocolos da época:
 
-✅ Conclusões e Insights Estratégicos
-A análise revelou padrões claros que refletem as normas sociais da época:
+1. **Prioridade de Gênero e Ciclo de Vida:** A taxa de sobrevivência feminina foi exponencialmente superior (74%) à masculina (18%), validando o protocolo de resgate priorizado.
+2. **Determinismo Socioeconômico:** A 1ª classe apresentou uma probabilidade de sobrevivência quase 3x maior que a 3ª classe, evidenciando como a estrutura do navio e o acesso aos botes foram condicionados pelo status social.
+3. **Dinâmica Familiar:** Famílias pequenas (2 a 4 membros) apresentaram melhores taxas de sucesso no resgate, sugerindo um equilíbrio entre mobilidade e suporte mútuo durante a evacuação.
 
-Mulheres e Crianças Primeiro: A taxa de sobrevivência entre mulheres foi drasticamente superior à dos homens (aproximadamente 74% vs 18%).
+## 💡 Habilidades Demonstradas
+- **Data Wrangling:** Tratamento rigoroso de valores nulos e estruturação de bases corrompidas.
+- **Análise Comparativa:** Uso de Heatmaps e Boxplots para validar hipóteses sobre disparidades de classe e gênero.
+- **Raciocínio Analítico:** Capacidade de extrair conclusões sociológicas a partir de dados quantitativos.
 
-Desigualdade de Classe: Passageiros da 1ª Classe tiveram quase 3x mais chances de sobreviver do que passageiros da 3ª Classe, evidenciando a prioridade no acesso aos botes.
+---
 
-Impacto Familiar: Passageiros que viajavam sozinhos ou em famílias muito grandes tiveram menores taxas de sobrevivência do que famílias pequenas (2 a 4 pessoas).
+## 📬 Contato
 
-💡 Habilidades Demonstradas
-Data Cleaning: Tratamento de dados ausentes (como a coluna 'Age' e 'Cabin').
+Gostou desta análise? Vamos nos conectar no LinkedIn!
 
-Feature Engineering: Criação de novas variáveis a partir de dados brutos.
+<p align="left">
+  <a href="https://www.linkedin.com/in/andressa-correa-dados" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
 
-Análise Comparativa: Uso de gráficos de calor (Heatmaps) e histogramas para validar hipóteses.
-
-📄 Licença
-Este projeto utiliza a licença MIT.
+---
+📄 **Licença** Este projeto utiliza a licença MIT.
